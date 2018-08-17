@@ -1,0 +1,13 @@
+E:\Jary\other\Util-master\output\release\netstandard2.0\Util.Webs.xml
+E:\Jary\other\Util-master\output\release\netstandard2.0\Util.Webs.deps.json
+E:\Jary\other\Util-master\output\release\netstandard2.0\Util.Webs.dll
+E:\Jary\other\Util-master\output\release\netstandard2.0\Util.Webs.pdb
+E:\Jary\other\Util-master\src\Util.Webs\obj\Debug\netstandard2.0\06-Util.Webs.csprojAssemblyReference.cache
+E:\Jary\other\Util-master\src\Util.Webs\obj\Debug\netstandard2.0\Util.Webs.WebResource.resources
+E:\Jary\other\Util-master\src\Util.Webs\obj\Debug\netstandard2.0\06-Util.Webs.csproj.GenerateResource.cache
+E:\Jary\other\Util-master\src\Util.Webs\obj\Debug\netstandard2.0\06-Util.Webs.csproj.CoreCompileInputs.cache
+E:\Jary\other\Util-master\src\Util.Webs\obj\Debug\netstandard2.0\06-Util.Webs.AssemblyInfoInputs.cache
+E:\Jary\other\Util-master\src\Util.Webs\obj\Debug\netstandard2.0\06-Util.Webs.AssemblyInfo.cs
+E:\Jary\other\Util-master\src\Util.Webs\obj\Debug\netstandard2.0\06-Util.Webs.csproj.CopyComplete
+E:\Jary\other\Util-master\src\Util.Webs\obj\Debug\netstandard2.0\Util.Webs.dll
+E:\Jary\other\Util-master\src\Util.Webs\obj\Debug\netstandard2.0\Util.Webs.pdb

@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netcoreapp2.1\Util.Samples.Webs.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\src\Util.Biz.Payments\02-Util.Biz.Payments.csproj" />
+    <ProjectReference Include="..\src\Util.Biz\01-Util.Biz.csproj" />
+    <ProjectReference Include="..\src\Util.Datas\05-Util.Datas.csproj" />
+    <ProjectReference Include="..\src\Util.Events\04-Util.Events.csproj" />
+    <ProjectReference Include="..\src\Util.Logs\03-Util.Logs.csproj" />
+    <ProjectReference Include="..\src\Util.Security\02-Util.Security.csproj" />
+    <ProjectReference Include="..\src\Util.Tools.QrCode\01-Util.Tools.QrCode.csproj" />
+    <ProjectReference Include="..\src\Util.Tools.Sms\02-Util.Tools.Sms.csproj" />
+    <ProjectReference Include="..\src\Util.Webs\06-Util.Webs.csproj" />
+    <ProjectReference Include="..\src\Util\01-Util.csproj" />
+    <ProjectReference Include="..\Util.Samples.Services\Util.Samples.Services.csproj" />
+  </ItemGroup>
+
+</Project>
