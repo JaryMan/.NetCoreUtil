@@ -24,7 +24,6 @@ namespace Util.Security.Identity.Services.Implements
         /// </summary>
         /// <param name="userManager">Identity用户服务</param>
         /// <param name="options">权限配置</param>
-        /// <param name="userRepository">用户仓储</param>
         public UserManager( IdentityUserManager<TUser, TKey> userManager, IOptions<PermissionOptions> options) {
             Manager = userManager;
             Options = options;

@@ -13,6 +13,12 @@ namespace Util.Extension
     /// </summary>
     public static class ExpressionExtensions
     {
+        /// <summary>
+        /// 构造函数
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="name"></param>
+        /// <returns></returns>
         public static ParameterExpression CreateLambdaParam<T>(string name)
         {
             return Expression.Parameter(typeof(T), name);
@@ -107,6 +113,13 @@ namespace Util.Extension
             return filter;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="param"></param>
+        /// <param name="filterObj"></param>
+        /// <returns></returns>
         public static Expression<Func<T, bool>> GenerateTypeBody<T>(this ParameterExpression param, Filter filterObj)
         {
             return (Expression<Func<T, bool>>) (param.GenerateBody<T>(filterObj));
@@ -121,21 +134,46 @@ namespace Util.Extension
             return Expression.Lambda(body, param);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="param"></param>
+        /// <param name="body"></param>
+        /// <returns></returns>
         public static Expression<Func<T, bool>> GenerateTypeLambda<T>(this ParameterExpression param, Expression body)
         {
             return (Expression<Func<T, bool>>) (param.GenerateLambda(body));
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="expression"></param>
+        /// <param name="expressionRight"></param>
+        /// <returns></returns>
         public static Expression AndAlso(this Expression expression, Expression expressionRight)
         {
             return Expression.AndAlso(expression, expressionRight);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="expression"></param>
+        /// <param name="expressionRight"></param>
+        /// <returns></returns>
         public static Expression Or(this Expression expression, Expression expressionRight)
         {
             return Expression.Or(expression, expressionRight);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="expression"></param>
+        /// <param name="expressionRight"></param>
+        /// <returns></returns>
         public static Expression And(this Expression expression, Expression expressionRight)
         {
             return Expression.And(expression, expressionRight);

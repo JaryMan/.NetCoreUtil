@@ -15,6 +15,9 @@ using Microsoft.AspNetCore.Authorization;
 namespace Util.Samples.Webs.Controllers
 {
     
+    /// <summary>
+    /// 首页控制器
+    /// </summary>
     public class IndexController : WebApiControllerBase
     {
 

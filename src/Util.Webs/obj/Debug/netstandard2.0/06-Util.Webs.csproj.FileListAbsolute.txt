@@ -11,3 +11,16 @@ E:\Jary\other\Util-master\src\Util.Webs\obj\Debug\netstandard2.0\06-Util.Webs.As
 E:\Jary\other\Util-master\src\Util.Webs\obj\Debug\netstandard2.0\06-Util.Webs.csproj.CopyComplete
 E:\Jary\other\Util-master\src\Util.Webs\obj\Debug\netstandard2.0\Util.Webs.dll
 E:\Jary\other\Util-master\src\Util.Webs\obj\Debug\netstandard2.0\Util.Webs.pdb
+E:\Jary\work\nxp.core.framework\output\release\netstandard2.0\Util.Webs.xml
+E:\Jary\work\nxp.core.framework\output\release\netstandard2.0\Util.Webs.deps.json
+E:\Jary\work\nxp.core.framework\output\release\netstandard2.0\Util.Webs.dll
+E:\Jary\work\nxp.core.framework\output\release\netstandard2.0\Util.Webs.pdb
+E:\Jary\work\nxp.core.framework\src\Util.Webs\obj\Debug\netstandard2.0\06-Util.Webs.csprojAssemblyReference.cache
+E:\Jary\work\nxp.core.framework\src\Util.Webs\obj\Debug\netstandard2.0\Util.Webs.WebResource.resources
+E:\Jary\work\nxp.core.framework\src\Util.Webs\obj\Debug\netstandard2.0\06-Util.Webs.csproj.GenerateResource.cache
+E:\Jary\work\nxp.core.framework\src\Util.Webs\obj\Debug\netstandard2.0\06-Util.Webs.csproj.CoreCompileInputs.cache
+E:\Jary\work\nxp.core.framework\src\Util.Webs\obj\Debug\netstandard2.0\06-Util.Webs.AssemblyInfoInputs.cache
+E:\Jary\work\nxp.core.framework\src\Util.Webs\obj\Debug\netstandard2.0\06-Util.Webs.AssemblyInfo.cs
+E:\Jary\work\nxp.core.framework\src\Util.Webs\obj\Debug\netstandard2.0\06-Util.Webs.csproj.CopyComplete
+E:\Jary\work\nxp.core.framework\src\Util.Webs\obj\Debug\netstandard2.0\Util.Webs.dll
+E:\Jary\work\nxp.core.framework\src\Util.Webs\obj\Debug\netstandard2.0\Util.Webs.pdb

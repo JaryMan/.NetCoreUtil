@@ -11,16 +11,13 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("何镇汐")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Util.Webs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyCopyrightAttribute("何镇汐")]
-[assembly: System.Reflection.AssemblyDescriptionAttribute("Util.Webs是Util应用框架的Asp.Net Core操作类库。\nUtil是一个.net core平台下的应用框架，旨在提升小型团队的开发输出能力，由常用" +
-    "公共操作类(工具类)、分层架构基类、Ui组件，第三方组件封装，第三方业务接口封装，配套代码生成模板，权限等组成。")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.11.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.11-preview-20180605-2")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("2.1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("2.1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Util.Webs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Util.Webs")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.11.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("2.1.0.0")]
 
 // 由 MSBuild WriteCodeFragment 类生成。
 
